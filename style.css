@@ -177,7 +177,7 @@ a:hover {
 
 
 .container{
- height: 100vh;
+ height: 70vh;
 align-items: center;
 }
 
@@ -357,4 +357,34 @@ font-family: 'Bree Serif', serif;
  padding-top: 28px;
  padding-left: 38px; 
 }
+.info-two{
+  padding: 10px;
+}
+.image{
+  padding-top: 12px;
+}
+.one p{
+  margin-top: 53px;
+}
+
+}
+
+@media (max-width: 400px){
+.one{
+  margin-top: 10px;
+}
+  .edu{
+    font-size: 1.5rem;
+  }
+  .image{
+    padding-top: 40px;
+  }
+
+  .one p{
+    margin-top: 220px;
+  }
+
+  .info-two p{
+    margin: 0px;
+  }
 }
